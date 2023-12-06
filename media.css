@@ -1,0 +1,96 @@
+@media(max-width: 500px){
+    .logo{
+        font-size: 1rem;
+    }
+    .menu{
+        display: none;
+    }
+    .home h2{
+        text-align: center;
+        color: white;
+        font-size: 1rem;
+    }
+    
+    .home h2 a{
+        color: rgb(230, 18, 18);
+        background-color: rgb(255, 94, 0);
+        text-decoration: none;
+        padding: 15px;
+        border-radius: 20px;
+    }
+    .one{
+        padding: 20px;
+        margin: 0px;
+    }
+    
+    .one h2{
+        text-decoration: underline;
+       font-weight: bolder;
+       font-size: 1rem;
+    }
+    p{
+        font-size: 0.5rem;
+    }
+}
+@media(max-width: 500px){
+    .abo{
+        display: flex;
+        justify-content: space-between;
+        margin: 50px;
+        padding: 20px;
+        border-radius: 5px;
+     }
+     
+     .abo img{
+         width: 100px;
+         border-radius: 10px;
+     }
+     
+     .abo p{
+         font-size: 0.6rem;
+         font-family: cursive;
+     }
+     
+     .abo p:hover{
+         box-shadow: 0.4em .4em .4em .4em;
+         transition: 0.7s ease-in-out;
+         padding: 10px;
+         border-radius: 10px;
+     }
+     .content{
+        background-image: url(developer.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 30vh;
+    }
+}
+@media(max-width: 500px){
+    .sa{
+        padding-right: 50px;
+        width: 350px;
+        font-size: 0.7rem;
+    }
+    .sa ul li{
+        list-style: none;
+        padding-bottom: 10px;
+    }
+    
+    .sa a{
+        text-decoration: none;
+        color: white;
+        font-size: .6rem;
+    }
+
+    .sam{
+        width: 700px;
+        margin: 50px;
+        color: white;
+        text-decoration: underline;
+        font-size: 0.6rem;
+    }
+    .s{
+        font-size: 0.7rem;
+        margin-right: 50px;
+    }
+}
